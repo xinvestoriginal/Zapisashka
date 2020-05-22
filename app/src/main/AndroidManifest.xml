@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="us.xinvestoriginal.callrec">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.PROCESS_OUTGOING_CALLS" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+
+    <application
+        android:name="us.xinvestoriginal.callrec.App"
+        android:allowBackup="true"
+        android:icon="@drawable/icongray"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/icongray"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name="us.xinvestoriginal.callrec.Activities.MainActivity"/>
+        <activity android:name="us.xinvestoriginal.callrec.Activities.StartActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <receiver
+            android:name="us.xinvestoriginal.callrec.Services.CallReceiver"
+            android:enabled="true">
+            <intent-filter>
+                <action android:name="android.intent.action.PHONE_STATE" />
+                <action android:name="android.intent.action.NEW_OUTGOING_CALL" />
+            </intent-filter>
+        </receiver>
+
+        <service
+            android:name="us.xinvestoriginal.callrec.Services.RecordService"
+            android:enabled="true"
+            android:exported="true" />
+
+        <activity
+            android:name="us.xinvestoriginal.callrec.Activities.PlayerActivity"
+            android:theme="@style/PlayerTheme"></activity>
+    </application>
+
+</manifest>

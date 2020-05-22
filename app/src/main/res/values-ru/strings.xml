@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">Запись звонков</string>
+    <string name="ok">Хорошо</string>
+    <string name="no">Не пойдёт</string>
+    <string name="no_track_text">Нет записанных треков</string>
+    <string name="needPermissions">Для работы программы необходимы все разрешения, мы обещаем, что не тронем ваши личные данные.</string>
+    <string name="no_file_text">Файла не существует на карте памяти, удалить данные из базы?</string>
+    <string name="no_app_for_file">Нет приложения для открытия файла</string>
+
+    <string name="write_text">Записывать</string>
+    <string name="write_all">Всё</string>
+    <string name="write_select">Только выбранные номера</string>
+    <string name="write_nothing">Не записывать</string>
+
+    <string name="clear_text">Удалить</string>
+    <string name="clear_all">Все записи</string>
+    <string name="clear_not_liked">Все кроме избранных</string>
+
+    <string name="show_text">Показывать</string>
+    <string name="show_all">Все записи</string>
+    <string name="show_liked">Избранное</string>
+    <string name="share_header">Попробуйте Записашку</string>
+
+    <string name="share_text">Попробуйте простое и удобное приложение для записи звонков - Записашка</string>
+    <string name="share_audio">Поделиться записью</string>
+    <string name="record_selected">записывает выбранные номера</string>
+    <string name="record">записывает</string>
+    <string name="not_record">не записывает</string>
+    <string name="filter_text">Выбрать номера</string>
+    <string name="need_add_tracks_to_base">Обнаружены неучтённые файлы в папке записей, добавить их в списки?</string>
+
+    <string name="demo_period_ended_text">Демонстрационный период закончился, запись разговоров не ведётся</string>
+    <string name="attention_text">Внимание!!!</string>
+    <string name="disclaimer_text">Для работы приложения необходимо чтобы вы приняли все разрешения, которые сейчас увидите, мы не читаем и не передаем ваши личные данные. Записи телефонных разговоров будут храниться на карте памяти в папке AiRecords.</string>
+    <string name="app_is_working">Запись работает</string>
+</resources>

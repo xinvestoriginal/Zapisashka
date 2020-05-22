@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="big_margin">10dp</dimen>
+    <dimen name="mid_margin">6dp</dimen>
+    <dimen name="low_margin">2dp</dimen>
+    <dimen name="play_size">56dp</dimen>
+    <dimen name="icon_size">24dp</dimen>
+    <dimen name="like_size">40dp</dimen>
+    <dimen name="mid_text_size">18sp</dimen>
+</resources>

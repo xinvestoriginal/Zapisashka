@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/llMainPlayer"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:background="@color/playerColor"
+    android:clickable="true"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context="us.xinvestoriginal.callrec.Activities.PlayerActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/mid_margin"
+        android:background="@color/cardview_dark_background"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="top"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/tvPlayerFileName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/big_margin"
+                android:layout_weight="10"
+                android:gravity="center"
+                android:textColor="@color/colorAccent"
+                android:textSize="@dimen/mid_text_size" />
+
+            <ImageButton
+                android:id="@+id/ibClosePlayer"
+                android:layout_width="@dimen/like_size"
+                android:layout_height="@dimen/like_size"
+                android:background="@null"
+                android:src="@android:drawable/btn_dialog" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:id="@+id/ibPlayAction"
+                android:layout_width="@dimen/play_size"
+                android:layout_height="@dimen/play_size"
+                android:layout_margin="@dimen/big_margin"
+                android:padding="@dimen/mid_margin"
+                android:tint="@color/colorNameText" />
+
+            <SeekBar
+                android:id="@+id/sbPlayer"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/big_margin"
+                tools:layout_editor_absoluteX="8dp"
+                tools:layout_editor_absoluteY="57dp" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

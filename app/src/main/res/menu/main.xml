@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+   >
+
+    <item android:id="@+id/search"
+        android:icon="@drawable/ic_search_white_24dp"
+        app:showAsAction="always"
+        android:title=""/>
+
+    <item android:id="@+id/rate"
+        android:icon="@drawable/ic_star_border_white_24dp"
+        app:showAsAction="always"
+        android:title=""/>
+
+    <item android:id="@+id/share"
+        android:icon="@drawable/ic_share_white_24dp"
+        app:showAsAction="always"
+        android:title=""/>
+
+
+
+    <item
+        android:title="@string/write_text"
+        app:showAsAction="never">
+        <menu>
+            <group>
+                <!--android:checkableBehavior="single"-->
+
+            <item android:id="@+id/rec_all"
+                android:title="@string/write_all"/>
+
+            <item android:id="@+id/rec_selected"
+                android:title="@string/write_select"/>
+
+            <item android:id="@+id/rec_disable"
+                android:title="@string/write_nothing"/>
+
+            </group>
+        </menu>
+    </item>
+
+    <item
+        android:title="@string/clear_text"
+        app:showAsAction="never">
+        <menu>
+            <item android:id="@+id/clear_all"
+                android:title="@string/clear_all"/>
+            <item android:id="@+id/clear_without_liked"
+                android:title="@string/clear_not_liked"/>
+        </menu>
+    </item>
+
+    <item android:id="@+id/mFilter"
+        android:title="@string/filter_text"/>
+
+</menu>

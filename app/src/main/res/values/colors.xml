@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#282a2b</color>
+    <color name="colorPrimaryDark">#1b1c1d</color>
+    <color name="colorAccent">#2cb633</color>
+    <color name="colorOutcoming">#00d0ff</color>
+    <color name="colorIncoming">#00ff00</color>
+    <color name="colorNameText">#ffe194</color>
+    <color name="starColor">#ffd900</color>
+    <color name="playerColor">#80000000</color>
+</resources>

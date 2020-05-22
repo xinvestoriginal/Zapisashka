@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">Call Writer</string>
+    <string name="ok">Ok</string>
+    <string name="no">No</string>
+    <string name="no_track_text">No tracks</string>
+    <string name="needPermissions">All permissions are required for the program to work, we promise that we will not touch your personal data.</string>
+    <string name="no_file_text">The file does not exist on the memory card, delete the data from the database?</string>
+    <string name="no_app_for_file">There is no application to open the file</string>
+
+    <string name="write_text">Write</string>
+    <string name="write_all">All</string>
+    <string name="write_select">Only selected numbers</string>
+    <string name="write_nothing">Not write</string>
+
+    <string name="clear_text">Remove</string>
+    <string name="clear_all">All records</string>
+    <string name="clear_not_liked">Without selected</string>
+
+    <string name="show_text">Show</string>
+    <string name="show_all">All Tracks</string>
+    <string name="show_liked">Selected</string>
+    <string name="share_header">Try "Call Writer"</string>
+
+    <string name="share_text">Try a simple and convenient application for recording calls - "Call Writer"</string>
+    <string name="share_audio">Share Record</string>
+    <string name="record_selected">Records selected numbers</string>
+    <string name="record">records</string>
+    <string name="not_record">not records</string>
+    <string name="filter_text">Select numbers</string>
+    <string name="need_add_tracks_to_base">We found unaccounted files in the folder of records, add them to the lists?</string>
+
+    <string name="demo_period_ended_text">The demo period is over, recording of conversations is not conducted</string>
+    <string name="attention_text">Attention!!!</string>
+    <string name="disclaimer_text">For the application to work you need to take all the permissions that you see now, we do not read and do not transfer your personal data. The phone records will be stored on the memory card in the AiRecords folder.</string>
+    <string name="app_is_working">Record in work</string>
+
+</resources>
